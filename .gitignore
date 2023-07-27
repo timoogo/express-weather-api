@@ -1,0 +1,38 @@
+# Node.js modules
+node_modules/
+
+# Log files
+*.log
+
+# Environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Compiled files
+*.class
+*.pyc
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build output directories
+build/
+dist/
+out/
+target/
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+.project
+.classpath
+
+# User-specific files
+.DS_Store
+Thumbs.db
