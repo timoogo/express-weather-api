@@ -40,6 +40,19 @@ DB_PORT=3306
 ### Lancement
 `npm run start`
 
+### Génération de la clé d'API
+1. lancer le serveur 
+   ```shell
+    npm run start
+    ```
+2. aller sur la route  http://localhost:{process.env.DB_PORT}/generate-api-key',
+    methods: [ 'GET' ],
+3. Lancer la requête
+4. Récupérer la clé d'API dans le body de la réponse
+5. Ajouter la clé d'API dans le header de chaque requête
+    ```
+    x-api-key: {clé d'API}
+    ```
 
 ## Routes
 

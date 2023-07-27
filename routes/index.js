@@ -5,6 +5,11 @@ let db = require('../db');
 let weatherService = require('../service/weatherService');
 
 
+
+
+
+
+
 /* GET home page. */
 
 router.get('/api/weather', async (req, res) => {
@@ -15,6 +20,9 @@ router.get('/api/weather', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+
+
 
 
 router.get('/', function(req, res, next) {
